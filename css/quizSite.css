@@ -3,6 +3,7 @@ body {
     background-color: darkseagreen;
     font-family: 'Mansalva', cursive;
     font-size: 15pt;
+    margin: 30px;
 }
 
 #submit, #reset {
