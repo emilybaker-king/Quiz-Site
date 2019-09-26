@@ -1,4 +1,32 @@
 
 body {
     background-color: darkseagreen;
+    font-family: 'Mansalva', cursive;
+    font-size: 15pt;
+}
+
+#submit, #reset {
+    font-size: 20pt;
+    background-color: black;
+    color: cornflowerblue;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Mansalva', cursive;
+    margin: 8px;
+    display: inline;
+    outline: none;
+}
+
+#submit:hover, #reset:hover {
+    border: 3px dotted chartreuse;
+    transition-duration: 0.5s;
+}
+
+.answers {
+    margin-bottom: 20px;
+}
+
+.answers label {
+    display: block;
 }
